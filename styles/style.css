@@ -1,0 +1,77 @@
+:root {
+  --color-background: #222831;
+  --color-font: #eeeeee;
+  --color-title: #76abae;
+  --color-button: #31363f;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-font);
+}
+
+main {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer {
+  padding: 8px;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: var(--color-title);
+  color: var(--color-background);
+}
+
+h1 {
+  color: var(--color-title);
+  margin-bottom: 20px;
+}
+
+p {
+  padding-top: 20px;
+}
+
+button {
+  background-color: var(--color-button);
+  color: var(--color-title);
+  border: 2px solid;
+  border-radius: 10%;
+  height: 40px;
+}
+
+button:hover {
+  background-color: var(--color-title);
+  color: var(--color-background);
+}
+
+#resolucaoH3,
+h3,
+button {
+  margin-top: 20px;
+}
+
+#resolucaoBtn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#resolucaoDiv2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnOp {
+  height: 40px;
+  width: 40px;
+}
